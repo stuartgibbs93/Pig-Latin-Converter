@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html lang = "en">
+		<head>
+			<!-- Link CSS Stylesheet -->
+			<link href="styles/style.css" rel="stylesheet" type="text/css">
+			<!-- Link JS File -->
+			<script src= "scripts/pig-latin.js"></script>
+		</head>
+		<body>
+			<h1>Pig Latin Converter!</h1>
+				<p>Pig latin is a made-up language, often used playfully to convey "secrecy".  The language consists of taking the first letter of each word and moving it to the end of the word.  This is then followed by the letter's "ay".</p>
+				<p>For example: pig latin = igpay atinlay</p>
+				<form>
+					<h2>Insert text below to convert a phrase or word to Pig Latin!</h2>
+					<input type="text" id="user-input">
+					<input type="button" onclick="pigLatinConverter()" value="Convert">
+				</form>
+				<p id= "result"></p>
+		</body>
+	</html>
